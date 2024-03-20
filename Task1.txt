@@ -1,0 +1,41 @@
+               javaScript window and JavaScript document different
+
+
+What is a JavaScript window?
+
+=> The window is at a root/top level at the JavaScript object hierarchy. 
+=> It  is a global/root object in JavaScript and it is the root object 
+    of the Document object model(DOM);
+
+What is a JavaScript document?
+
+=> A document is an object inside the window object and we use a document 
+    object for manipulation inside the document. 
+
+              javaScript document  VS JavaScript window
+              
+ 
+  1. It represents the document loaded inside    VS   1. It represents the browser window in which
+      the window or browser.                             you are seeing the content.
+
+  2. The properties related to it are stored     VS   2. The properties related to it are stored 
+      in the document object.                            in the window object.
+
+  3. It is loaded after the loading window       VS   3. It is loaded before the document because
+      because the window contains a document                 window container document.
+
+  4. It is the root element of the document      VS   4. The window is the global element for all
+      object model.                                         objects, functions, etc.
+
+  5. It is an object of window.	                 VS   5. It is an object of the browser.
+
+  6. We can not access windows objects           VS   6. We can access document object properties
+      properties inside the document.                       inside the window.
+
+  7.        logically:                           VS   7.           logically:
+      document:{ properties}                                        window:{
+                                                              document:{properties}
+                                                                    }
+
+   8. Example: document.title will return the   VS    8. Example: window.document.title will return
+       title of the document                             the title of the document.                                                                 
